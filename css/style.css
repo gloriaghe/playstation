@@ -82,3 +82,9 @@ header{
 
 /* section ps5 */
 
+.img-PS5 img {
+width: 100%;
+}
+#ps5description-img-small img{
+   width: 100%; 
+}
