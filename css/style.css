@@ -79,8 +79,8 @@ header{
 }
 
 .img-100vw  span {
-   padding-top: 20px;
-   padding-bottom: 30px;
+   padding-top: 30px;
+   padding-bottom: 40px;
    display: block;
 }
 
@@ -108,3 +108,16 @@ width: 100%;
 #ps5description-img-small .description-grey {
     color: grey;
 }
+
+/*  section It takes two */
+
+#it-takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    min-height: 600px;
+    margin: 30px 0;
+}
+
+#it-takes-two img{
+    margin: 30px 0;
+}
+
