@@ -139,3 +139,19 @@ width: 100%;
 #new-game > div {
     padding-bottom: 50px;
 }
+
+/* section esplora */
+
+#explore-general {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+
+#explore img {
+    width: 100%;
+}
+
+#explore > div {
+    padding-bottom: 70px;
+}
