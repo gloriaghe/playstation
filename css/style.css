@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .button{
@@ -154,4 +154,53 @@ width: 100%;
 
 #explore > div {
     padding-bottom: 70px;
+}
+
+/* section playstation plus */
+/* secttion playstation now */
+
+#play-plus {
+    background-color: #bebcbb;
+    min-height: 310px ;
+}
+
+.img-play-big{
+    width: 50%;
+}
+
+.logo-plus-now {
+    width: 50%;
+}
+
+#play-plus span,
+#play-now span {
+    display: block;
+    margin: 20px 0;
+}
+
+.margin-plus-now {
+    margin: 60px 0;
+}
+
+#play-now {
+    background-color: #161c3b;
+    min-height: 310px ;
+    color: white;
+}
+
+.bt-play-now {
+    background-color: white;
+    color: black;
+}
+
+.bt-play-plus {
+    background-color: #d9dadc;
+    color: blue;
+}
+
+/* section sconti */
+
+#sconti-text {
+    text-align: center;
+    margin: 60px 0;
 }
