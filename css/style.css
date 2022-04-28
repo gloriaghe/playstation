@@ -1,5 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .button{
@@ -8,6 +9,7 @@ body{
     border-radius: 20px;
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .button:hover{
@@ -31,7 +33,7 @@ h2 {
 .description-general{
     color: #727272;
     display: block;
-    margin: 40px 0;
+    margin: 30px 0;
     font-size: 20px;
 }
 
@@ -65,9 +67,9 @@ header{
     margin-right: 30px;
 }
 
-/* section returnal */
+/* section jumbotron */
 
-#returnal {
+#jumbotron {
     background-image: url(../img/jumbo-bg.png);
     min-height: 600px;
     margin-top: 100px;
@@ -79,7 +81,7 @@ header{
     background-position: top, center ;
 }
 
-#returnal img {
+#jumbotron img {
     margin-top: 250px;
     margin-bottom: 40px;
 }
@@ -90,15 +92,20 @@ header{
    display: block;
 }
 
-#returnal-img-small {
+#jumbotron-img-small {
     margin-bottom: 115px;
 }
 
-#returnal-img-small img {
-    border-radius: 30px;
+#jumbotron-img-small img {
+    border-radius: 20px;
     width: 100%;
+    padding: 3px;
 }
 
+.here-jumbo {
+    border: 2px solid #0072ce;
+    border-radius: 20px;
+}
 /* section ps5 */
 
 #PLAY-NO-LIMIT{
@@ -111,25 +118,56 @@ width: 100%;
 }
 
 #ps5description-img-small img{
-   width: 100%; 
+   width: 60%;
+   padding-bottom: 10px;
 }
-#ps5description-img-small .description-grey {
-    color: grey;
+
+#ps5description-img-small .description-black {
+    color: black;
+}
+
+#PLAY-NO-LIMIT span:first-child{
+    color: #0072ce;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.here-ps5 {
+    border-bottom: 2px solid #00439c;
+    filter: none;
+
+}
+
+.here-ps5 a{
+    color: black;
+}
+
+#ps5description-img-small div {
+    margin: 20px 0;
+    text-align: center;
+    filter: opacity(60%);
+    color: black;
 }
 
 /*  section It takes two */
 
 #it-takes-two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    min-height: 700px;
+    min-height: 650px;
     margin-top: 30px;
 }
 
 #it-takes-two img{
-    margin: 30px 0;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#it-takes-two span {
+    font-weight: bold;
 }
 
 /* section nuove uscite */
+
 #new-game {
     background-color: #1f1f1f;
     color: white;
@@ -138,14 +176,18 @@ width: 100%;
 #new-game img {
     width: 100%;
     border-radius: 20px;
+    padding-bottom: 10px;
 }
 
 #new-game h2 {
     margin-bottom: 25px;
 }
+
 #new-game span {
  color: white;
+ font-weight: bold;
 }
+
 #new-game > div {
     padding-bottom: 50px;
 }
@@ -167,7 +209,11 @@ width: 100%;
 }
 
 #explore > div {
-    padding-bottom: 70px;
+    padding-bottom: 50px;
+}
+
+.block-explore {
+    margin-bottom: 40px;
 }
 
 /* section playstation plus */
@@ -176,6 +222,7 @@ width: 100%;
 #play-plus {
     background-color: #bebcbb;
     min-height: 310px ;
+    color: #333333;
 }
 
 .img-play-big{
@@ -189,7 +236,8 @@ width: 100%;
 #play-plus span,
 #play-now span {
     display: block;
-    margin: 20px 0;
+    margin: 30px 0;
+    font-weight: bold;
 }
 
 .margin-plus-now {
@@ -209,7 +257,7 @@ width: 100%;
 
 .bt-play-plus {
     background-color: #d9dadc;
-    color: blue;
+    color: #3569e6;
 }
 
 /* section sconti */
@@ -223,6 +271,10 @@ width: 100%;
     width: 100%;
 }
 
+#sconti-text a {
+    padding: 20px 12px;
+}
+
 /* section social media */
 
 #social {
@@ -232,6 +284,7 @@ width: 100%;
     text-align: center;
     margin-bottom: 40px;
     font-size: 30px;
+    font-weight: bold;
 }
 #social img {
     width: 100%;
@@ -273,10 +326,18 @@ footer a {
 #sie-footer {
     font-size: 14px;
     font-weight: bold;
+    margin-top: 40px;
 }
 
 #sie-footer a{
     display: inline;
     text-decoration: underline;
     margin-left: 10px;
+}
+
+@media screen and (max-width:576px) {
+
+    #ps5description-img-small img{
+        width: 100%;
+     }
 }
