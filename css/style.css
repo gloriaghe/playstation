@@ -16,13 +16,31 @@ body{
     background-color: white;
 }
 
+.btn-blue:hover {
+    padding: 15px 25px;
+    border: 2px solid rgba(86, 150, 247, 0.5);
+    background-color: #0078da;
+    color: white;
+}   
+
 .btn-orange{
     background-color: #cd3d0f;
+}
+
+.btn-orange:hover{
+    background-color: #c3512b;
+    border: 2px solid yellow;
+    color: white;
 }
 
 #btn-black {
     color: white;
     background-color: #363636;
+}
+
+#btn-black:hover {
+    color: black;
+    background-color: greenyellow
 }
 
 h2 {
@@ -43,7 +61,7 @@ a {
 
 /* section nav */
 
-nav{
+nav {
     min-height: 65px;
     padding-left: 30px;
     padding-right: 30px;
@@ -53,9 +71,9 @@ nav{
 .navbar-light .navbar-nav .nav-link {
     color: black;
     font-weight: normal;
-  }
+}
 
-header{
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -68,22 +86,22 @@ header{
     min-height: 35px;
 }
 
-#black-sony img{
+#black-sony img {
     width: 80px;
     margin-right: 30px;
 }
 
 #btn-black {
-    
     padding: 10px 20px;
-  }
+}
 
 #lens {
-      width: 35%;
-      margin-left: 15px;
+    width: 35%;
+    margin-left: 15px;
 }
 
 /* dropdown nav */
+
 .play-menu-nav {
     width: 50%;
 }
@@ -91,7 +109,6 @@ header{
 .dropdown-item span {
     display: block;
 }
-
 
 .link-drop-nav .inline {
     display: inline;
@@ -135,7 +152,7 @@ header{
 
 #jumbotron {
     background-image: url(../img/jumbo-bg.png);
-    min-height: 600px;
+    min-height: 650px;
     margin-top: 100px;
 }
 
@@ -170,6 +187,11 @@ header{
     border: 2px solid #0072ce;
     border-radius: 20px;
 }
+
+#jumbotron-img-small a:hover {
+margin-top: 20px;
+}
+
 /* section ps5 */
 
 #PLAY-NO-LIMIT{
