@@ -218,25 +218,30 @@ width: 100%;
     font-weight: bold;
 }
 
-.here-ps5 {
+.here-ps5:hover {
     border-bottom: 2px solid #00439c;
-    filter: none;
-
 }
 
-.here-ps5 a{
+.here-ps5 a:hover{
     color: black;
+}
+
+#ps5description-img-small a:hover {
+    filter: none;
 }
 
 #ps5description-img-small div {
-    margin: 20px 0;
+    margin: 40px 0 20px 0;
     text-align: center;
-    filter: opacity(60%);
     color: black;
 }
 
+#ps5description-img-small a {
+    filter: opacity(60%);
+}
+
 .img-carousel {
-    width: 30% !important;
+    width: 50% !important;
 }
 
 .carousel-width {
@@ -248,6 +253,14 @@ width: 100%;
     margin-left: 100px;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    top: 360px
+}
+
+.button-carousel-modify {
+    background-color: white;
+    border: none;
+  }
 /*  section It takes two */
 
 #it-takes-two{
