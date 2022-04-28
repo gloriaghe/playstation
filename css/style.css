@@ -35,6 +35,10 @@ h2 {
     font-size: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* section nav */
 
 nav{
@@ -92,9 +96,11 @@ header{
 
 #returnal-img-small img {
     border-radius: 30px;
+    width: 100%;
 }
 
 /* section ps5 */
+
 #PLAY-NO-LIMIT{
     text-align: center;
     margin-bottom: 50px;
@@ -137,9 +143,15 @@ width: 100%;
 #new-game h2 {
     margin-bottom: 25px;
 }
-
+#new-game span {
+ color: white;
+}
 #new-game > div {
     padding-bottom: 50px;
+}
+
+#new-game a {
+    text-decoration: none;
 }
 
 /* section esplora */
@@ -205,4 +217,23 @@ width: 100%;
 #sconti-text {
     text-align: center;
     margin: 60px 0;
+}
+
+#sconti-text img{
+    width: 100%;
+}
+
+/* section social media */
+
+#social {
+    margin: 70px 0;
+}
+#social h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+#social img {
+    width: 100%;
+    margin-bottom: 40px;
 }
