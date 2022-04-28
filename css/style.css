@@ -73,19 +73,53 @@ header{
     margin-right: 30px;
 }
 
- #btn-black {
+#btn-black {
     margin: 0 15px;
     padding: 10px 20px;
   }
 
-  #lens {
+#lens {
       width: 50%;
-  }
-  .chevron {
-      width: 10px;
-      color: #727272;
-      display: none;
-  }
+}
+
+/* dropdown nav */
+.play-menu-nav {
+    width: 50%;
+}
+
+.dropdown-item span {
+     display: block;
+}
+
+
+.link-drop-nav .inline {
+    display: inline;
+}
+
+.img-drop-nav{
+list-style-type: none;
+}
+/* modify nav BT */
+
+.dropdown-menu {
+    border: none;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 93%;
+}
+
+.dropdown-menu ul > li{
+    float: left !important;
+} 
+
+.dropdown-menu > li > a{
+    width:auto !important;
+}  
+
+.dropdown-divider {
+    width: 100vw;
+}
 
 /* section jumbotron */
 

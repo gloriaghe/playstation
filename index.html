@@ -25,32 +25,50 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 col-7">
-                      <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Giochi</a>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Hardwere</a>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#"id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Hardwere</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Servizi</a>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servizi</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Novità</a>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Novità</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Fai acquisti</a>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Fai acquisti</a>
                       </li>
                       
-                      <li class="nav-item dropdown">
+                      <li class="nav-item dropdown open" style="position: initial;">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Supporto 
-                          <img class="chevron" src="img/chevron-down-solid.svg" alt="">
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <ul class="dropdown-menu" style="width: 100%;" aria-labelledby="navbarScrollingDropdown">
+                            <ul class="img-drop-nav d-flex justify-content-center">
+                                <li><a class="dropdown-item" href="#">
+                                    <img class="play-menu-nav" src="img/play-menu-ico.png" alt="Play 5">
+                                    <span>PS5</span>
+                                </a></li>
+                                <li><a class="dropdown-item " href="#">
+                                    <img class="play-menu-nav" src="img/play-menu-ico.png" alt="Play 5">
+                                    <span>PS5</span>
+                                </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                    <img class="play-menu-nav" src="img/play-menu-ico.png" alt="Play 5">
+                                    <span>PS5</span>
+                                </a></li>
+                            </ul>
+
+                            <div><hr class="dropdown-divider"></div>
+
+                            <div class="link-drop-nav">
+                                <a class="dropdown-item" href="#">Sub link acquisti</a>
+                                <a class="dropdown-item" href="#">Sub link</a>
+                                <a class="dropdown-item" href="#">Sub link</a>
+                            </div>
+                        
                         </ul>
                       </li>
                     </ul>
