@@ -74,12 +74,13 @@ header{
 }
 
 #btn-black {
-    margin: 0 15px;
+    
     padding: 10px 20px;
   }
 
 #lens {
-      width: 50%;
+      width: 35%;
+      margin-left: 15px;
 }
 
 /* dropdown nav */
@@ -88,7 +89,7 @@ header{
 }
 
 .dropdown-item span {
-     display: block;
+    display: block;
 }
 
 
@@ -97,8 +98,17 @@ header{
 }
 
 .img-drop-nav{
-list-style-type: none;
+    list-style-type: none;
 }
+
+.link-drop-nav .dropdown-item {
+    width: auto;
+}
+
+.img-drop-centrata {
+    text-align: center;
+}
+
 /* modify nav BT */
 
 .dropdown-menu {
