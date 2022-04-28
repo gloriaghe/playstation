@@ -235,6 +235,19 @@ width: 100%;
     color: black;
 }
 
+.img-carousel {
+    width: 30% !important;
+}
+
+.carousel-width {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-control-next-icon {
+    margin-left: 100px;
+}
+
 /*  section It takes two */
 
 #it-takes-two{
