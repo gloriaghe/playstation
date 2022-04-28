@@ -237,3 +237,46 @@ width: 100%;
     width: 100%;
     margin-bottom: 40px;
 }
+
+/* footer */
+
+footer {
+    background-color: #00439c;
+    color: white;
+}
+
+#globe {
+    width: 20px;
+    margin: 30px 0;
+}
+
+#ps-footer {
+    width: 100px;
+}
+
+footer a {
+    color: white;
+    display: block;
+    margin: 0 0 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#footer-block {
+    padding: 75px 0;
+}
+
+#sie-footer img {
+    width: 135px;
+    padding-bottom: 20px;
+}
+
+#sie-footer {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#sie-footer a{
+    display: inline;
+    text-decoration: underline;
+    margin-left: 10px;
+}
