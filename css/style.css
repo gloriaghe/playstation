@@ -126,6 +126,17 @@ header {
     text-align: center;
 }
 
+#search-lens {
+    background-image: url(../img/lens.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position:  10px;
+}
+#search-lens:focus {
+    background-image: none;
+    
+}
+
 /* modify nav BT */
 
 .dropdown-menu {
