@@ -186,6 +186,7 @@ header {
 
 #jumbotron-img-small {
     margin-bottom: 115px;
+    margin-top: 50px;
 }
 
 #jumbotron-img-small img {
@@ -194,13 +195,10 @@ header {
     padding: 3px;
 }
 
-.here-jumbo {
-    border: 2px solid #0072ce;
-    border-radius: 20px;
-}
-
-#jumbotron-img-small a:hover {
-margin-top: 20px;
+.here-jumbo:hover {
+ margin-top: -20px;
+ border: 2px solid #0072ce;
+ border-radius: 20px;
 }
 
 /* section ps5 */
