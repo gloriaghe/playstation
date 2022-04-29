@@ -229,7 +229,7 @@ width: 100%;
     font-weight: bold;
 }
 
-.here-ps5:hover {
+.button-carousel-modify:focus {
     border-bottom: 2px solid #00439c;
 }
 
@@ -240,6 +240,7 @@ width: 100%;
 #ps5description-img-small a:hover {
     filter: none;
 }
+
 
 #ps5description-img-small div {
     margin: 40px 0 20px 0;
@@ -269,6 +270,8 @@ width: 100%;
     background-color: white;
     border: none;
   }
+
+
 /*  section It takes two */
 
 #it-takes-two{
