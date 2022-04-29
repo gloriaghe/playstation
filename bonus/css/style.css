@@ -219,7 +219,8 @@ header {
     position: relative;
     width: 100vw;
     max-height: 640px;
-
+    object-fit: cover;
+    object-position: center top;
 }
 
 .img-jumbo-modify {
