@@ -59,6 +59,14 @@ a {
     text-decoration: none;
 }
 
+.position-initial {
+    position: initial;
+}
+
+.width-100 {
+    width: 100%;
+}
+
 /* section nav */
 
 nav {
