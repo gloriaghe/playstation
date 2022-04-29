@@ -185,8 +185,12 @@ header {
 }
 
 #jumbotron-img-small {
-    margin-bottom: 115px;
+    margin-bottom: 80px;
     margin-top: 50px;
+}
+
+#jumbotron-img-small a{
+    margin-bottom: 25px;
 }
 
 #jumbotron-img-small img {
