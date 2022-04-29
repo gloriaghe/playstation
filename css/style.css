@@ -249,12 +249,9 @@ width: 100%;
     margin: 0 auto;
 }
 
-.carousel-control-next-icon {
-    margin-left: 100px;
-}
 
 .carousel-control-next, .carousel-control-prev {
-    top: 360px
+    top: -425px
 }
 
 .button-carousel-modify {
@@ -452,4 +449,13 @@ footer a {
     #ps5description-img-small img{
         width: 100%;
      }
+
+    
+}
+
+@media screen and (max-width:767px) {
+
+    .img-carousel {
+        width: 90% !important;
+      }
 }
