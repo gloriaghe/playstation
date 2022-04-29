@@ -192,6 +192,11 @@ header {
  border: 2px solid #0072ce;
  border-radius: 20px;
 }
+
+#title-jumbo {
+    width: 70%;
+}
+
 /* carousel */
 
 .text-jumbo-carousel{
@@ -298,6 +303,10 @@ width: 100%;
     font-weight: bold;
 }
 
+#title-it-taket-two {
+    width: 60%;
+  }
+  
 /* section nuove uscite */
 
 #new-game {

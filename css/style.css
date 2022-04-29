@@ -205,6 +205,9 @@ header {
  border-radius: 20px;
 }
 
+#title-jumbo {
+    width: 70%;
+}
 /* section ps5 */
 
 #PLAY-NO-LIMIT{
@@ -283,6 +286,10 @@ header {
 
 #it-takes-two span {
     font-weight: bold;
+}
+
+#title-it-taket-two {
+  width: 60%;
 }
 
 /* section nuove uscite */
