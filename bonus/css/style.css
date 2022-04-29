@@ -161,28 +161,16 @@ header {
 
 /* section jumbotron */
 
-#jumbotron {
-    background-image: url(../img/jumbo-bg.png);
-    min-height: 650px;
-    margin-top: 100px;
-}
 
-.img-100vw {
-    color: white;
-    background-size: cover;
-    background-position: top, center ;
-}
-
-#jumbotron img {
-    margin-top: 250px;
-    margin-bottom: 40px;
-}
-
-.img-100vw  span {
-   padding-top: 30px;
+.text-jumbo-carousel span {
+   padding-top: 50px;
    padding-bottom: 40px;
    display: block;
 }
+
+.text-jumbo-carousel h2 {
+    padding-top: 40px;
+ }
 
 #jumbotron-img-small {
     margin-bottom: 80px;
@@ -204,7 +192,26 @@ header {
  border: 2px solid #0072ce;
  border-radius: 20px;
 }
+/* carousel */
 
+.text-jumbo-carousel{
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    color: white;
+}
+
+.jumbo-img-big {
+    margin-top: 112px;
+    position: relative;
+    width: 100vw;
+    max-height: 640px;
+
+}
+
+.img-jumbo-modify {
+
+}
 /* section ps5 */
 
 #PLAY-NO-LIMIT{
