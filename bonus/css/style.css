@@ -474,4 +474,9 @@ footer a {
     .img-carousel {
         width: 90% !important;
       }
+
+    .PS5-description {
+          text-align: center;
+          padding-bottom: 20px;
+    }
 }
