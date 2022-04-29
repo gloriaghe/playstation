@@ -209,7 +209,7 @@ header {
 }
 
 .img-PS5 img {
-    width: 100%;
+width: 100%;
 }
 
 #ps5description-img-small img{
@@ -227,16 +227,15 @@ header {
     font-weight: bold;
 }
 
-.here-ps5{
+.button-carousel-modify:focus {
     border-bottom: 2px solid #00439c;
-    
 }
 
 .here-ps5 a:hover{
     color: black;
 }
 
-.filter:hover {
+#ps5description-img-small a:hover {
     filter: none;
 }
 
@@ -247,7 +246,7 @@ header {
     color: black;
 }
 
-.filter {
+#ps5description-img-small a {
     filter: opacity(60%);
 }
 
@@ -260,6 +259,15 @@ header {
     margin: 0 auto;
 }
 
+
+.carousel-control-next, .carousel-control-prev {
+    top: -425px
+}
+
+.button-carousel-modify {
+    background-color: white;
+    border: none;
+  }
 
 
 /*  section It takes two */
@@ -455,4 +463,11 @@ footer a {
      }
 
     
+}
+
+@media screen and (max-width:767px) {
+
+    .img-carousel {
+        width: 90% !important;
+      }
 }
